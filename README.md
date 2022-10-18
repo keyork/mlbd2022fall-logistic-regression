@@ -44,7 +44,7 @@ $$
 procedure LOGISTICREGRESSION(dataset, beta)
 	for data, label in dataset
 		beta += alpha*(label-data/(1+exp(-beta*data)))*data
-  end for
+	end for
 end procedure
 ```
 
