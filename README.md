@@ -1,4 +1,5 @@
 # mlbd2022fall-logistic-regression
+
 Machine Learning & Big Data 2022 Fall homework 2: logistic regression
 
 https://github.com/keyork/mlbd2022fall-logistic-regression
@@ -43,7 +44,7 @@ $$
 procedure LOGISTICREGRESSION(dataset, beta)
 	for data, label in dataset
 		beta += alpha*(label-data/(1+exp(-beta*data)))*data
-  end for
+	end for
 end procedure
 ```
 
